@@ -1,0 +1,240 @@
+body,p,span{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Rubik', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+
+}
+img{
+    max-width: 100%;
+}
+/*=======HEADER FLUID==*/
+
+.main-header .container-fluid{
+    max-width: 1480px;
+}
+.container-fluid{
+    max-width: 1480px;
+}
+body .btn-primary{
+background-color: #e73a3e !important;
+border: none;
+padding: 8px 28px;
+position: relative;
+z-index: 1;
+transition: .4s;
+}
+body .btn-primary::after{
+
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    z-index: -1;
+    transition: .4s;
+    border-radius: 5px;
+}
+body .btn-primary:hover::after{
+    width: 100%;
+}
+
+.our-primary-menu li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #111;
+    font-weight: 500;
+
+}
+
+/*=========dropdowen-menu==============*/
+
+.our-primary-menu li ul{
+    position: absolute;
+    width: 230px;
+    
+    top: 120%;
+    box-shadow: 0px 0px 15px 0px rgba(0 ,0 ,0 , 0.1);
+    background-color: #fff;
+    list-style: none;
+    padding: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s ease-in-out;
+}
+.our-primary-menu li:hover ul{
+opacity: 1;
+visibility: visible;
+top: 100%;
+}
+.our-primary-menu li ul li{
+    flex-direction: column;
+}
+
+
+
+
+.header-search{
+    width: 40px;
+    font-size: 20px;
+    text-align: center;
+    border-right: 1px solid #ddd ;
+    margin-right: 15px;
+}
+.header-call-info{
+    width: 140px;
+    
+}
+
+.header-search{
+
+}
+.header-call{
+    font-size: 30px;
+    color: #e73a3e;
+
+}
+.header-call-info span{
+    color: #606060;
+}
+.header-call-info a{
+    font-weight: 500;
+    color: #111;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+/*======slider-section==============*/
+
+.slider-contant-wrap{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+
+.slider-secction{
+
+    background-image: url(https://i.ibb.co/34NbRX0/main-banner2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top-center;
+}
+
+.slider-contant h6{
+ color: #e73a3e;
+}
+.slider-contant h1{
+    font-size: 60px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.slider-contant p{
+    color: #606060;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.header-socile{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+.header-socile ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.header-socile ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 20px;
+    color: #111;
+}
+.header-socile ul li span{
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 50px;
+    position: relative;
+    
+}
+
+.header-socile ul li span::after{
+    content: "";
+    height: 1px;
+    background-color: rgb(82, 82, 82);
+    width: 30px;
+    position: absolute;
+    right: -48px;
+    top: 50%;
+}
+
+
+
+/*====================part-2=========================*/
+
+
+.logo-section{
+    border-bottom: 1px solid #ddd;
+}
+
+.clint-logo{}
+.clint-logo ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.about-img{
+    position: relative;
+}
+.about-25{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: url(https://i.ibb.co/dkXD0YR/shape.png);
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-tex h6{
+    color: #e73a3e;
+    font-weight: 400;
+    
+}
+.about-tex h2{
+    font-size: 42px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+.about-tex p{}
+.about-tex strong{
+    color: #606060;
+    font-weight: 400;
+}
+.about-tex ul li{}
+.about-tex ul{
+    list-style: none;
+    padding-left: 0;
+}
+.about-tex ul li::before{
+    content: "\fooc";
+    font-family: 'Font Awesome 5 Free';
+}
