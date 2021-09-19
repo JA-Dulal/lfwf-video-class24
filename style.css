@@ -238,3 +238,163 @@ top: 100%;
     content: "\fooc";
     font-family: 'Font Awesome 5 Free';
 }
+
+
+
+
+
+
+/*=======================animation-section==================*/
+
+.why-chose{
+    background-color: #f9fafb;
+    padding: 100px 0;
+}
+
+
+.fsz-neeee p{
+    font-size: 15px;
+}
+
+
+
+.why-chose{
+    position: relative;
+}
+
+
+
+.new-wi{
+    display: inline-block;
+    background-color: #FFF;
+}
+.iconnn i{
+font-size: 70px;
+color: #e73a3e;
+
+}
+.iconnn{
+    margin-top: -27%;
+    margin-left: 58%;
+}
+
+
+
+
+.folse-div i{
+    margin-top: 5px;
+    margin-left: -19px;
+    z-index: 1;
+    border: 10px solid #fff;
+    border-radius: 50%;
+
+}
+
+.folse-div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    
+}
+
+.play-animation-btn{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+}
+
+
+/* .play-animation-btn::before{
+    content: "";
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -3px;
+    left: -22px;
+    border-radius: 50%;
+    background-color: #e73a3e;
+    animation: playbtn 1s ease-out infinite;
+
+} */
+.play-animation-btn::after{
+    content: "";
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 3px;
+    left: -19px;
+    border-radius: 50%;
+    background-color: #e73a3e;
+    animation: playbtn 1.3s ease-out infinite;
+
+}
+
+@keyframes playbtn{
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    /* 30%{
+        transform: scale(1.3);
+        opacity: .8;  
+    }  */
+    50%{
+        transform: scale(1.5);
+        opacity: .5;
+    }
+    100%{
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+/*==========%-section==============*/
+
+
+.rel-fetu-item{
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: .5s;
+}
+.features-item{
+    overflow: hidden;
+
+}
+.rel-fetu-item:hover{
+    transform: translateY(-15px);
+}
+.rel-fetu-item::before{
+    content: "";
+    position: absolute;
+    top: -155px;
+    left: 12px;
+    bottom: 0;
+    margin: 0;
+    width: 90%;
+    height: 70%;
+    background-color: #fdebeb;
+    border-radius: 50%;
+}
+
+.icccon-sec i{
+    font-size: 26px;
+    color: #e73a3e;
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    position: relative;
+    transition: .5s;
+}
+.rel-fetu-item:hover .icccon-sec i{
+    color: #fff;
+    background-color: #e73a3e;
+}
+.marggt{
+    margin-top: -30px;
+}
