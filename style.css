@@ -398,3 +398,138 @@ color: #e73a3e;
 .marggt{
     margin-top: -30px;
 }
+
+
+
+/* ============aplpy-now-section========================== */
+
+
+.step-timeline{}
+.step-timeline ul{
+    list-style: none;
+    position: relative;
+    padding-left: 60px;
+}
+
+.step-timeline ul::before{
+    content: "";
+    position: absolute;
+    left: 18px;
+    top: 15px;
+    width: 2px;
+    background: #e73a4e;
+    height: 87%;
+    height: calc(100% - 100px);
+}
+
+
+.step-timeline ul li{
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.step-timeline ul li::before{
+    content: attr(data-counter);
+    position: absolute;
+    left: -62px;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    background: #f9fafb;
+    border: 1px solid #e73a3e;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+
+}
+.step-timeline ul li strong{
+    font-size: 24px;
+    display: block;
+    margin-bottom: 10px;
+}
+.step-timeline ul li p{
+    color: #606060;
+}
+
+
+
+/*============form-section===============*/
+
+.calculate-main-div{
+    background-color: #fdebeb;
+    padding: 50px;
+}
+.site-texer-top .calculate-form{}
+.site-texer-top .calculate-form h6{}
+
+.calculate-form .form-group input{
+    border: none;
+    border-radius: 0px;
+    padding: 12px 10px;
+}
+.calculate-form .form-group select{
+    border: none;
+    border-radius: 0px;
+    height: 48px;
+}
+.aplly-section h2{
+    margin-top: 30px;
+}
+.texer-top{
+    margin: 75px 249px;
+}
+.texer-top h6{
+    color: #e73a3e;
+}
+.apply-now-section{
+    padding-bottom: 100px;
+}
+
+/*===========================calling-section=========================*/
+
+.coll-secttion-bb{
+    background-color: #e73a3e;
+    border-radius: 10px;
+}
+.text-colll h3{
+    border-right: 1px solid #fff;
+    padding: 0px;
+    color: #fff;
+    font-size: 33px;
+    margin-left: 37px;
+
+
+}
+
+.tex-icon-sec i{
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 85px;
+    font-size: 42px;
+
+}
+.tex-icon-sec a{
+    font-size: 35px;
+    color: #fff;
+    font-weight: bold;
+    margin: 16px;
+
+}
+.text-colll{
+    margin-top: 35px;
+
+}
+.tex-icon-sec{
+    margin-top: 0px;
+}
+.call-action-to{
+    margin-bottom: 80px;
+}
+
+
+.text-colll h2{
+
+}
